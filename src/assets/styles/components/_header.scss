@@ -4,6 +4,12 @@
   align-items: center;
   padding: 1rem 1rem 2rem;
 
+  @media screen and (max-width: 768px){
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+  }
+
   &_image {
     width: 14rem;
 
@@ -14,11 +20,23 @@
       margin: 0 3.75rem 0 0;
       object-fit: contain;
     }
+
+    @media screen and (max-width: 768px){
+      width: 100%;
+      text-align: center;
+    }
+
   }
 
   &_button {
     width: 14rem;
     margin-right: 1.5rem;
+
+    @media screen and (max-width: 768px){
+      width: 100%;
+      margin: 1rem 0;
+    }
+
   }
 
   &_form {

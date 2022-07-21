@@ -27,6 +27,10 @@
   border: solid 1px var(--border);
   font-weight: normal;
 
+  @media screen and (max-width: 768px){
+    overflow: auto;
+  }
+
   table {
     width: 100%;
     border-collapse: collapse;
